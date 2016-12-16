@@ -81,3 +81,32 @@ li {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  header {
+    background-color: #18294f;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  li {
+    padding-right: 1.25em;
+    padding-bottom: .75em;
+    padding-top: .75em;
+  }
+
+  li:nth-child(even) {
+    float: left;
+    margin: 0;
+  }
+
+}
