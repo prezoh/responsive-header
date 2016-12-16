@@ -135,3 +135,29 @@ li {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  header {
+    background-color: #18294f;
+  }
+
+  h1 {
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+  }
+
+}
+
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+  padding: .75rem;
+}
