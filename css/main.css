@@ -110,3 +110,28 @@ li {
   }
 
 }
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  header {
+    background-color: #18294f;
+  }
+
+  h1 {
+    float: left;
+    margin: .9rem;
+    width: 25%;
+  }
+
+  li {
+    float: right;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+}
